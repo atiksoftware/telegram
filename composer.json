@@ -1,0 +1,36 @@
+{
+    "name": "atiksoftware/telegram",
+    "type": "library",
+    "description": "The Telegram API PHP and Laravel",
+    "keywords": [
+        "telegram",
+        "chatbot",
+        "telegram php",
+        "telegram bot",
+        "telegram chatbot",
+        "telegram bot api",
+        "telegram bot sdk",
+        "telegram-bot-sdk",
+        "telegram bot php sdk",
+        "telegram bot api php sdk",
+        "php telegram bot"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/atiksoftware/telegram",
+    "authors": [{
+        "name": "Atiksoftware Corporation",
+        "email": "atiksoftware@gmail.com",
+        "homepage": "https://github.com/atiksoftware"
+    }],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "illuminate/support": "^9.26",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Atiksoftware\\Telegram\\": "src/"
+        }
+    }
+}
